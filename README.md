@@ -4,6 +4,8 @@ This is a personal project, where I intend to use K-means clustering to carry ou
 
 ## Dataset
 
+<img src ="images/dataset-cover.png" alt="Kaggle dataset cover" style="width: 300px; height: auto;">
+
 This dataset has been taken from Kaggle:
 
 https://www.kaggle.com/datasets/ameythakur20/unsupervisedlearning
