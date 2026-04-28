@@ -2,7 +2,7 @@
 
 This is a personal project, where I intend to use K-means clustering to carry out unsupervised learning on this dataset of plants.
 
-## Dataset
+# Dataset
 
 <img src ="images/dataset-cover.png" alt="Kaggle dataset cover" style="width: 300px; height: auto;">
 
@@ -76,6 +76,26 @@ The dataset is based on the classic Iris flower dataset originally introduced by
 Collection Methodology
 
 The dataset consists of morphological measurements of iris flowers, including sepal and petal dimensions recorded in centimeters. The observations represent multiple flower samples across different species, enabling analysis of feature similarity and natural grouping patterns. The data has been organized into a clean tabular structure without missing values to support analytical and educational use.
+
+---
+
+# Findings
+
+_to be elaborated..._
+
+A K-means clustering algorithm was used on the Iris Data. Followed by a Gradient Boost Classifier to help find the most important features that define a cluster.
+
+The Classifier has discovered that the two most important features are **Petal Width** and **Sepal Length**.
+
+_Include screenshots here_
+
+# Where next?
+
+_to be elaborated..._
+
+- Further in depth cluster analysis
+- Try a different model to improve recall
+- 03_other_eda_notebook
 
 ---
 
