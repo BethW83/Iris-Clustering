@@ -97,13 +97,32 @@ This dataset lends itself well to a clustering algorithm.
 
 **02_cluster_notebook.ipynb**
 
-The second jupyter notebook contains a K-means clustering algorithm, ollowed by a Gradient Boost Classifier to help find the most important features that define a cluster.
+The second jupyter notebook contains a K-means clustering algorithm, followed by a Gradient Boost Classifier to help find the most important features that define a cluster.
+
+The process was broken down into 8 steps, each step has its own issue on the project board.
+
+- 1: Create Cluster Pipeline
+- 2: PCA components number?
+- 3: Elbow Method and Silhouette score
+- 4: Fit cluster pipeline
+- 5: Add cluster predictions to data
+- 6: Create Classifier Pipeline
+- 7: Fit classifier
+- 8: Cluster analysis
+
+PCA, Principal Components Analysis was carried about and it was found that n=4 is the optimum number of components to explain the data.
+
+The Elbow Method shows us that 3 is the optimal number of clusters:
 
 <img src ="plots/elbow_method.png" alt="Elbow Method Plot" style="width: auto; height: 300px;">
 
 <br>
 
+The Silohouette Plot below shows 3 clusters:
+
 <img src ="plots/silhouette_3_clusters.png" alt="Silohouette Plot for 3 Clusters" style="width: auto; height: 300px;">
+
+<br>
 
 The Classifier has discovered that the two most important features are **Petal Width** and **Sepal Length**.
 
