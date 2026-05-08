@@ -99,6 +99,8 @@ This dataset lends itself well to a clustering algorithm.
 
 The second jupyter notebook contains a K-means clustering algorithm, followed by a Gradient Boost Classifier to help find the most important features that define a cluster.
 
+Code comments are included throughout the notebook also.
+
 The process was broken down into 8 steps, each step has its own issue on the project board.
 
 - 1: Create Cluster Pipeline
@@ -124,6 +126,28 @@ The Silohouette Plot below shows 3 clusters:
 
 <br>
 
+More screenshots can be found in the "screenshots" folder.
+
+Training Classification Report:
+
+<img src ="screenshots/classification_report_training.png" alt="Training Classification Report" style="width: 400px; height: auto;">
+
+Test Classification Report:
+
+<img src ="screenshots/classification_report_test.png" alt="Test Classification Report" style="width:400px ; height: auto;">
+
+<br>
+
+Evaluation:
+
+The model got 87% of all predictions correct (26 out of 30 samples).
+
+Cluster 0 performs well, Cluster 1 is perfect but Cluster 2 is struggling. This could be because the sample size for cluster 2 in the test set is small.
+
+<br>
+
+---
+
 The Classifier has discovered that the two most important features are **Petal Width** and **Sepal Length**.
 
 <img src ="plots/feature_importance.png" alt="Feature Importance Plot" style="width: auto; height: 300px;">
@@ -132,7 +156,7 @@ The Classifier has discovered that the two most important features are **Petal W
 
 # Where next?
 
-03_other_eda_notebook.ipynb
+**03_other_eda_notebook.ipynb**
 
 The Gradient Boosting Classifier struggled particularly with cluster 2, possible options:
 
