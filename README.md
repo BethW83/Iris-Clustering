@@ -89,17 +89,27 @@ Violin plots are a good way to view the dataset by attribute:
 
 <img src ="plots/violin_plot_petal_width.png" alt="Violin Plot of Petal Width" style="width: auto; height: 300px;">
 
+<br>
+
 More plots can be found in the “plots” folder.
 
 This dataset lends itself well to a clustering algorithm.
 
 **02_cluster_notebook.ipynb**
 
-A K-means clustering algorithm was used on the Iris Data. Followed by a Gradient Boost Classifier to help find the most important features that define a cluster.
+The second jupyter notebook contains a K-means clustering algorithm, ollowed by a Gradient Boost Classifier to help find the most important features that define a cluster.
+
+<img src ="plots/elbow_method.png" alt="Elbow Method Plot" style="width: auto; height: 300px;">
+
+<br>
+
+<img src ="plots/silhouette_3_clusters.png" alt="Silohouette Plot for 3 Clusters" style="width: auto; height: 300px;">
 
 The Classifier has discovered that the two most important features are **Petal Width** and **Sepal Length**.
 
-_Include screenshots here_
+<img src ="plots/feature_importance.png" alt="Feature Importance Plot" style="width: auto; height: 300px;">
+
+<br>
 
 # Where next?
 
@@ -121,6 +131,8 @@ Start with a straightforward dataset to get the method correct and then use it t
 Issues will be created on the project board for any further investigations:
 
 <img src ="screenshots/kanban_2.png" alt="Project Board" style="width: auto; height: 300px;">
+
+<br>
 
 https://github.com/users/BethW83/projects/5
 
