@@ -106,6 +106,12 @@ I would also like to further experiment with the following:
 
 Start with a straightforward dataset to get the method correct and then use it to get a quick overview/ analysis of a messier or larger dataset.
 
+Issues will be created on the project board for any further investigations:
+
+<img src ="screenshots/kanban_2.png" alt="Project Board" style="width: auto; height: 300px;">
+
+https://github.com/users/BethW83/projects/5
+
 ---
 
 The Code Institute's Data Analytics template was used to create this repo
