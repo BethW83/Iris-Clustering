@@ -91,11 +91,20 @@ _Include screenshots here_
 
 # Where next?
 
-_to be elaborated..._
+03_other_eda_notebook.ipynb
 
-- Further in depth cluster analysis
-- Try a different model to improve recall
-- 03_other_eda_notebook
+The Gradient Boosting Classifier struggled particularly with cluster 2, possible options:
+
+- Alter the ratio of the data split for the train and test sets, try 0.25 or 0.3 (sample size for cluster 2 was very small in the test set)
+- Try a different model, perhaps a Random Forest Classifier (easier to tune and less likely to overfit)
+
+I would also like to further experiment with the following:
+
+- y-data profiling
+- missingno
+- sweetviz
+
+Start with a straightforward dataset to get the method correct and then use it to get a quick overview/ analysis of a messier or larger dataset.
 
 ---
 
