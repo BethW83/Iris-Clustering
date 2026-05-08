@@ -81,7 +81,19 @@ The dataset consists of morphological measurements of iris flowers, including se
 
 # Findings
 
-_to be elaborated..._
+**01_eda_notebook.ipynb**
+
+This first jupyter notebook contains Exploratory Data Analysis to explore the dataset.
+
+Violin plots are a good way to view the dataset by attribute:
+
+<img src ="plots/violin_plot_petal_width.png" alt="Violin Plot of Petal Width" style="width: auto; height: 300px;">
+
+More plots can be found in the “plots” folder.
+
+This dataset lends itself well to a clustering algorithm.
+
+**02_cluster_notebook.ipynb**
 
 A K-means clustering algorithm was used on the Iris Data. Followed by a Gradient Boost Classifier to help find the most important features that define a cluster.
 
